@@ -3,8 +3,8 @@
 # Contributor: Scytrin dai Kinthra <scytrin@gmail.com>
 
 pkgname=st-git-tic
-_pkgname=st-tmux-clip
-pkgver=0.7
+_pkgname=st
+pkgver=0.7.26.gb331da5
 pkgrel=1
 pkgdesc='Simple virtual terminal emulator for X'
 url='http://st.suckless.org/'
@@ -15,15 +15,15 @@ depends=('libxft')
 makedepends=('ncurses' 'libxext' 'git')
 epoch=1
 # include config.h and any patches you want to have applied here
-source=('git://github.com/fpqc/st-tmux-clip'
+source=('git://git.suckless.org/st'
 	'fpqc.diff'
 	'solarized-dark.diff'
 	'colorfix.diff'
 	)
 sha256sums=('SKIP'
-            'bde0613f264352d1c0ff45647514059a261b7ed594377f51191e4e5014b8ab4f'
-            '4782f52c4147a352579586c1b066f9fd1da934e580cbd3b78943f058394d9883'
-            '2e8cdbeaaa79ed067ffcfdcf4c5f09fb5c8c984906cde97226d4dd219dda39dc')
+            'd643e31ecd5bc3e126fe54e778c7b7cacc3fe7f7fbdf4a857ffd9dc85bb48f6b'
+            '2a0cdd946e420591f39f068753b2f6dab0d076b962512cb850f3ba4492ee7c1b'
+            '71e1211189d9e11da93ee49388379c5f8469fcd3e1f48bb4d791ddaf161f5845')
 
 provides=("${_pkgname}")
 conflicts=("${_pkgname}")

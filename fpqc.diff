@@ -1,22 +1,22 @@
 diff --git a/config.def.h b/config.def.h
-index a719e36..98834a5 100644
+index 877afab..4b29586 100644
 --- a/config.def.h
 +++ b/config.def.h
 @@ -5,7 +5,7 @@
   *
   * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
   */
--static char font[] = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
-+static char font[] = "Sauce Code Powerline:pixelsize=16:antialias=true:autohint=true";
- static int borderpx = 2;
+-char font[] = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
++char font[] = "Sauce Code Powerline:pixelsize=16:antialias=true:autohint=true";
+ int borderpx = 2;
  
  /*
-@@ -134,7 +134,7 @@ static unsigned int cursorshape = 2;
+@@ -134,7 +134,7 @@ unsigned int cursorshape = 2;
   * Default columns and rows numbers
   */
  
--static unsigned int cols = 80;
-+static unsigned int cols = 150;
- static unsigned int rows = 24;
+-unsigned int cols = 80;
++unsigned int cols = 150;
+ unsigned int rows = 24;
  
  /*
